@@ -1,5 +1,5 @@
 # study_git
-## learning git &amp; github  
+## learning git &amp; github
 
 Изучим простые команды git  
 `Что такое git?`
@@ -85,5 +85,12 @@ git clone + ссылка
 посмотрим статус `git status` видим снова измененные файлы
 добавим их в коммит `git add -A`
 и отрпавим commit `git commit -m "Name commit"`
+запушим `git push`  
+и он ругается, что текущая ветка не привязана к мастер
+![git push branch](http://i.imgur.com/1KOTPDW.png)  
+---
+и сразу нам подсказывает что делать 
+вводим эту команду и push завершается успешно
+---
 
-
+27+37
