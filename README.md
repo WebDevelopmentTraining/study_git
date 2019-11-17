@@ -1,7 +1,7 @@
 # study_git
-learning git &amp; github
+##learning git &amp; github
 
-Что такое git?
+`Что такое git?`
 
 
 Регистрация на сайте https://github.com/
@@ -9,25 +9,50 @@ learning git &amp; github
 
 
 Создаем репозиторий
-Что такое репозиторий?
+`Что такое репозиторий?`
 
 
-Уже есть первый коммит http://i.imgur.com/Ny39tb7.png
-Что такое commit?
-Можно нажать fork и увидем что у нас один коммит http://i.imgur.com/uPm4ziU.png
+Уже есть первый коммит  
+![commit](http://i.imgur.com/Ny39tb7.png) 
+`Что такое commit?`
+Можно нажать fork и увидем что у нас один коммит  
+![fork](http://i.imgur.com/uPm4ziU.png) 
 
 
-Помимо коммитов есть еще бренчи (Branch) http://i.imgur.com/It2lGTT.png
-Что такое branch? 
-Для чего?
+
+Помимо коммитов есть еще бренчи (Branch)   
+![Branch](http://i.imgur.com/It2lGTT.png) 
+`Что такое branch? `
+`Для чего?`
 
 Далее склонируем репозиторий
-Сначала копируем ссылку http://i.imgur.com/baBzTBR.png
+Сначала копируем ссылку   
+![копируем ссылку](http://i.imgur.com/baBzTBR.png) 
 Далее открываем терминал (в windows powershell)
 переходим в папку вашего проекта
 и пишем команду
-git clone + ссылка
-http://i.imgur.com/qDElrcx.png
+git clone + ссылка  
+![git clone](http://i.imgur.com/qDElrcx.png) 
 
 
-PullRequest
+Открываем в редакторе кода наш проект
+
+Изменяем readme файл
+
+какие файлы изминились можно проверить командой `git status`
+что именно изменилось можно посмотреть командой `git diff`
+
+чтобы измененный файл добавить в коммит команда `git add README.md`
+После этого `git status` отобрадает файлик зеленым цветом,то что он добавлен в коммит
+
+создадим файл `.gitignore`
+в нём пропишите  
+```
+/.gitignore   
+/node_modules/
+```
+
+эти файлы и папки будут игнорироваться
+чтобы закоммитить все фалы в которых были произведены изменения используется команда  
+`git add -A`
+
