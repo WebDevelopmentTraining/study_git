@@ -171,4 +171,11 @@ pull request у нас теперь сохранен во вкладке pull re
 
 и делаем `git push -f` для того чтобы история переписалась (старый коммит будет заменен новым)
 
+Обычный `git push` выдаст нам ошибку
+![error push](http://i.imgur.com/I2D6q26.png)
+
+---
+
+Нажимам Merge pull request и после этого можем ветку удалить если она вам не нужна
+![merge pull request](http://i.imgur.com/i98EWOH.png)
 
